@@ -1,6 +1,23 @@
-.env
-venv/
+# Directorios
+Data/
 __pycache__/
 *.pyc
-logs/
-data/faiss_index/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Archivos de índice FAISS
+*.index
+*.pkl
+*.bin
+faiss_index/
+
+# Logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
